@@ -65,27 +65,34 @@
   }
  
   #search-bar{
+    background: #fff;
     display: flex;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
     justify-content: center;
-    cursor: text;
-    background-color: transparent;
     padding: 0;
-    height: 25px;
-    width: 510px;
-    color: rgba(0,0,0,.87);
-    font-size: 30px;
-    margin: auto;
-    border-radius: 40px;
-    
+
   }
   
   #search-bar input{
     display: flex;
     justify-content: center;
-    width: 150px;
-    border: none;
+    width: auto;
     width: 510px;
+    border-radius: 24px;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+    cursor: text;
+
+
+    
   }
+   
   
   #form-search{
     width: 100%;
